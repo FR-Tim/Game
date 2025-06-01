@@ -1,7 +1,7 @@
  
 
 
-> Ouvrir cette page à [https://retrocorporation.github.io/retro-corporation/](fr-tim.github.io/Game/)
+> Ouvrir cette page à [[fr-tim.github.io/Game/)]
 
 ## Utiliser comme extension
 
