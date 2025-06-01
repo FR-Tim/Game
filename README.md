@@ -1,7 +1,7 @@
  
 
 
-> Ouvrir cette page à [[fr-tim.github.io/Game/)]
+> Ouvrir cette page à [fr-tim.github.io/Game/](fr-tim.github.io/Game/)
 
 ## Utiliser comme extension
 
