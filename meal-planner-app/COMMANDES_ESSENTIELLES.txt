@@ -1,0 +1,302 @@
+╔══════════════════════════════════════════════════════════════════════════╗
+║              MEAL PLANNER - COMMANDES ESSENTIELLES                       ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+📍 EMPLACEMENT DU PROJET
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  /vercel/sandbox/meal-planner-app/
+
+
+🚀 LANCEMENT RAPIDE (2 TERMINAUX REQUIS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ TERMINAL 1 - BACKEND (Port 5000)                                │
+  └─────────────────────────────────────────────────────────────────┘
+
+    cd /vercel/sandbox/meal-planner-app/backend
+    npm start
+
+  ✅ Attendez de voir :
+     "🚀 Serveur démarré sur http://localhost:5000"
+
+
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ TERMINAL 2 - FRONTEND (Port 3000)                               │
+  └─────────────────────────────────────────────────────────────────┘
+
+    cd /vercel/sandbox/meal-planner-app/frontend
+    npm run dev
+
+  ✅ Attendez de voir :
+     "➜  Local:   http://localhost:3000/"
+
+  🌐 L'application s'ouvre automatiquement dans votre navigateur
+
+
+📦 INSTALLATION (PREMIÈRE FOIS UNIQUEMENT)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Backend :
+    cd /vercel/sandbox/meal-planner-app/backend
+    npm install
+
+  Frontend :
+    cd /vercel/sandbox/meal-planner-app/frontend
+    npm install
+
+
+🔧 COMMANDES DE DÉVELOPPEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Lancer backend en mode dev (auto-reload) :
+    cd backend && npm run dev
+
+  Lancer frontend en mode dev :
+    cd frontend && npm run dev
+
+  Build frontend pour production :
+    cd frontend && npm run build
+
+  Prévisualiser le build :
+    cd frontend && npm run preview
+
+
+🌐 URLs IMPORTANTES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Application frontend :
+    http://localhost:3000
+
+  API backend :
+    http://localhost:5000
+
+  Toutes les recettes :
+    http://localhost:5000/api/recipes
+
+  Une recette spécifique :
+    http://localhost:5000/api/recipes/1
+
+
+📝 TESTER L'API AVEC CURL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Obtenir toutes les recettes :
+    curl http://localhost:5000/api/recipes
+
+  Obtenir une recette :
+    curl http://localhost:5000/api/recipes/1
+
+  Générer plan aléatoire :
+    curl -X POST http://localhost:5000/api/recipes/random \
+      -H "Content-Type: application/json" \
+      -d '{"days": 7}'
+
+  Générer liste de courses :
+    curl -X POST http://localhost:5000/api/shopping-list \
+      -H "Content-Type: application/json" \
+      -d '{"recipeIds": [1, 2, 3]}'
+
+  Calculer calories :
+    curl -X POST http://localhost:5000/api/calculate-calories \
+      -H "Content-Type: application/json" \
+      -d '{"recipeIds": [1, 2, 3]}'
+
+
+🔍 COMMANDES DE DEBUG
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Vérifier version Node.js :
+    node --version
+
+  Vérifier version npm :
+    npm --version
+
+  Lister les processus sur port 5000 :
+    lsof -i :5000
+
+  Lister les processus sur port 3000 :
+    lsof -i :3000
+
+  Tuer un processus sur un port :
+    kill -9 $(lsof -t -i:5000)
+
+
+🗂️ NAVIGATION DANS LE PROJET
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Aller au dossier principal :
+    cd /vercel/sandbox/meal-planner-app
+
+  Voir la structure :
+    ls -la
+
+  Voir les fichiers backend :
+    ls -la backend/
+
+  Voir les fichiers frontend :
+    ls -la frontend/src/
+
+  Éditer les recettes :
+    nano backend/data/recipes.json
+    # ou
+    vim backend/data/recipes.json
+
+
+📚 OUVRIR LA DOCUMENTATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Guide de démarrage rapide :
+    cat START.md
+
+  Documentation complète :
+    cat README.md
+
+  Guide technique :
+    cat GUIDE_COMPLET.md
+
+  Guide de test :
+    cat COMMENT_TESTER.md
+
+  Liste des fonctionnalités :
+    cat FEATURES.md
+
+  Résumé du projet :
+    cat RESUME_PROJET.txt
+
+  Index documentation :
+    cat INDEX_DOCUMENTATION.md
+
+
+🛠️ PERSONNALISATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Ajouter des recettes :
+    nano backend/data/recipes.json
+
+  Changer les couleurs :
+    nano frontend/src/index.css
+    # Modifier les variables :root
+
+  Modifier l'app principale :
+    nano frontend/src/App.jsx
+
+  Modifier le serveur :
+    nano backend/server.js
+
+
+🧹 NETTOYAGE ET RÉINSTALLATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Nettoyer backend :
+    cd backend
+    rm -rf node_modules package-lock.json
+    npm install
+
+  Nettoyer frontend :
+    cd frontend
+    rm -rf node_modules package-lock.json
+    npm install
+
+  Nettoyer tout :
+    cd /vercel/sandbox/meal-planner-app
+    rm -rf backend/node_modules frontend/node_modules
+    rm -rf backend/package-lock.json frontend/package-lock.json
+    cd backend && npm install
+    cd ../frontend && npm install
+
+
+⚠️ DÉPANNAGE RAPIDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Problème : Port déjà utilisé
+  Solution : Tuer le processus
+    kill -9 $(lsof -t -i:5000)
+    kill -9 $(lsof -t -i:3000)
+
+  Problème : Module non trouvé
+  Solution : Réinstaller
+    cd backend && rm -rf node_modules && npm install
+    cd frontend && rm -rf node_modules && npm install
+
+  Problème : Page blanche
+  Solution : Vérifier console navigateur (F12)
+    - Backend doit tourner
+    - Vérifier URL API dans App.jsx
+
+  Problème : Erreur CORS
+  Solution : Vérifier server.js
+    - cors() doit être présent
+    - Backend doit tourner
+
+
+📋 CHECKLIST DE LANCEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  □ Node.js installé (v18+)
+  □ npm installé
+  □ cd dans le dossier projet
+  □ npm install dans backend/
+  □ npm install dans frontend/
+  □ Lancer backend (Terminal 1)
+  □ Lancer frontend (Terminal 2)
+  □ Ouvrir http://localhost:3000
+  □ Tester l'ajout d'un repas
+  □ Vérifier la liste de courses
+
+
+🎯 RACCOURCIS UTILES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Stopper un serveur :
+    Ctrl + C
+
+  Ouvrir console navigateur :
+    F12
+
+  Rafraîchir page :
+    F5 ou Ctrl + R
+
+  Mode responsive :
+    Ctrl + Shift + M (Chrome)
+
+  Copier chemin complet :
+    pwd
+
+
+📊 STATISTIQUES PROJET
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Voir nombre de lignes code :
+    find . -name "*.js" -o -name "*.jsx" | xargs wc -l
+
+  Voir taille du projet :
+    du -sh /vercel/sandbox/meal-planner-app
+
+  Compter les fichiers :
+    find . -type f | wc -l
+
+
+🎉 COMMANDES BONUS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Générer une archive du projet :
+    tar -czf meal-planner.tar.gz meal-planner-app/
+
+  Créer un snapshot git :
+    git add .
+    git commit -m "Snapshot du projet Meal Planner"
+
+  Voir les dépendances :
+    npm list --depth=0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  💡 ASTUCE : Gardez ce fichier ouvert dans un terminal pour référence !
+
+  Pour l'afficher à tout moment :
+    cat /vercel/sandbox/meal-planner-app/COMMANDES_ESSENTIELLES.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

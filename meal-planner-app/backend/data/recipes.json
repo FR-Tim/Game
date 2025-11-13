@@ -1,0 +1,192 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Pancakes moelleux",
+      "category": "petit-dejeuner",
+      "prepTime": "15 min",
+      "cookTime": "10 min",
+      "calories": 350,
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400",
+      "ingredients": [
+        { "name": "Farine", "quantity": 250, "unit": "g" },
+        { "name": "Lait", "quantity": 300, "unit": "ml" },
+        { "name": "Oeufs", "quantity": 2, "unit": "pièces" },
+        { "name": "Sucre", "quantity": 50, "unit": "g" },
+        { "name": "Beurre", "quantity": 30, "unit": "g" },
+        { "name": "Levure chimique", "quantity": 1, "unit": "sachet" }
+      ],
+      "instructions": "Mélanger tous les ingrédients secs, ajouter les liquides, faire cuire dans une poêle beurrée."
+    },
+    {
+      "id": 2,
+      "name": "Salade Caesar au poulet",
+      "category": "dejeuner",
+      "prepTime": "20 min",
+      "cookTime": "15 min",
+      "calories": 420,
+      "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=400",
+      "ingredients": [
+        { "name": "Laitue romaine", "quantity": 1, "unit": "pièce" },
+        { "name": "Poulet", "quantity": 300, "unit": "g" },
+        { "name": "Parmesan", "quantity": 50, "unit": "g" },
+        { "name": "Croûtons", "quantity": 100, "unit": "g" },
+        { "name": "Sauce Caesar", "quantity": 100, "unit": "ml" },
+        { "name": "Huile d'olive", "quantity": 2, "unit": "c. à soupe" }
+      ],
+      "instructions": "Griller le poulet, couper la laitue, mélanger avec la sauce et les croûtons."
+    },
+    {
+      "id": 3,
+      "name": "Spaghetti Bolognaise",
+      "category": "diner",
+      "prepTime": "15 min",
+      "cookTime": "30 min",
+      "calories": 580,
+      "image": "https://images.unsplash.com/photo-1598866594230-a7c12756260f?w=400",
+      "ingredients": [
+        { "name": "Spaghetti", "quantity": 400, "unit": "g" },
+        { "name": "Viande hachée", "quantity": 500, "unit": "g" },
+        { "name": "Tomates concassées", "quantity": 400, "unit": "g" },
+        { "name": "Oignon", "quantity": 1, "unit": "pièce" },
+        { "name": "Ail", "quantity": 2, "unit": "gousses" },
+        { "name": "Huile d'olive", "quantity": 3, "unit": "c. à soupe" },
+        { "name": "Basilic", "quantity": 1, "unit": "bouquet" }
+      ],
+      "instructions": "Faire revenir l'oignon et l'ail, ajouter la viande, puis les tomates. Servir sur les pâtes cuites."
+    },
+    {
+      "id": 4,
+      "name": "Bol de smoothie aux fruits",
+      "category": "petit-dejeuner",
+      "prepTime": "10 min",
+      "cookTime": "0 min",
+      "calories": 280,
+      "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?w=400",
+      "ingredients": [
+        { "name": "Banane", "quantity": 2, "unit": "pièces" },
+        { "name": "Fraises", "quantity": 200, "unit": "g" },
+        { "name": "Yaourt grec", "quantity": 200, "unit": "g" },
+        { "name": "Miel", "quantity": 2, "unit": "c. à soupe" },
+        { "name": "Granola", "quantity": 50, "unit": "g" },
+        { "name": "Myrtilles", "quantity": 100, "unit": "g" }
+      ],
+      "instructions": "Mixer les fruits avec le yaourt, verser dans un bol, garnir de granola et myrtilles."
+    },
+    {
+      "id": 5,
+      "name": "Wrap au saumon et avocat",
+      "category": "dejeuner",
+      "prepTime": "15 min",
+      "cookTime": "0 min",
+      "calories": 450,
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=400",
+      "ingredients": [
+        { "name": "Tortillas", "quantity": 4, "unit": "pièces" },
+        { "name": "Saumon fumé", "quantity": 200, "unit": "g" },
+        { "name": "Avocat", "quantity": 2, "unit": "pièces" },
+        { "name": "Fromage frais", "quantity": 150, "unit": "g" },
+        { "name": "Citron", "quantity": 1, "unit": "pièce" },
+        { "name": "Roquette", "quantity": 50, "unit": "g" }
+      ],
+      "instructions": "Étaler le fromage frais sur les tortillas, ajouter saumon, avocat et roquette. Rouler et déguster."
+    },
+    {
+      "id": 6,
+      "name": "Poulet rôti aux légumes",
+      "category": "diner",
+      "prepTime": "20 min",
+      "cookTime": "45 min",
+      "calories": 520,
+      "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400",
+      "ingredients": [
+        { "name": "Poulet", "quantity": 1, "unit": "kg" },
+        { "name": "Carottes", "quantity": 4, "unit": "pièces" },
+        { "name": "Pommes de terre", "quantity": 600, "unit": "g" },
+        { "name": "Courgettes", "quantity": 2, "unit": "pièces" },
+        { "name": "Huile d'olive", "quantity": 4, "unit": "c. à soupe" },
+        { "name": "Herbes de Provence", "quantity": 2, "unit": "c. à soupe" },
+        { "name": "Sel", "quantity": 1, "unit": "c. à café" },
+        { "name": "Poivre", "quantity": 1, "unit": "c. à café" }
+      ],
+      "instructions": "Assaisonner le poulet, disposer avec les légumes coupés, arroser d'huile et rôtir au four."
+    },
+    {
+      "id": 7,
+      "name": "Omelette aux champignons",
+      "category": "petit-dejeuner",
+      "prepTime": "10 min",
+      "cookTime": "10 min",
+      "calories": 320,
+      "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=400",
+      "ingredients": [
+        { "name": "Oeufs", "quantity": 4, "unit": "pièces" },
+        { "name": "Champignons", "quantity": 200, "unit": "g" },
+        { "name": "Fromage râpé", "quantity": 50, "unit": "g" },
+        { "name": "Beurre", "quantity": 20, "unit": "g" },
+        { "name": "Ciboulette", "quantity": 1, "unit": "bouquet" },
+        { "name": "Sel", "quantity": 1, "unit": "pincée" },
+        { "name": "Poivre", "quantity": 1, "unit": "pincée" }
+      ],
+      "instructions": "Faire revenir les champignons, battre les oeufs, verser et cuire avec le fromage."
+    },
+    {
+      "id": 8,
+      "name": "Buddha Bowl végétarien",
+      "category": "dejeuner",
+      "prepTime": "25 min",
+      "cookTime": "20 min",
+      "calories": 480,
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400",
+      "ingredients": [
+        { "name": "Quinoa", "quantity": 200, "unit": "g" },
+        { "name": "Pois chiches", "quantity": 200, "unit": "g" },
+        { "name": "Patate douce", "quantity": 2, "unit": "pièces" },
+        { "name": "Avocat", "quantity": 1, "unit": "pièce" },
+        { "name": "Épinards", "quantity": 100, "unit": "g" },
+        { "name": "Graines de sésame", "quantity": 2, "unit": "c. à soupe" },
+        { "name": "Sauce tahini", "quantity": 50, "unit": "ml" }
+      ],
+      "instructions": "Cuire le quinoa, rôtir les légumes, assembler dans un bol avec la sauce."
+    },
+    {
+      "id": 9,
+      "name": "Saumon grillé sauce citron",
+      "category": "diner",
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "calories": 380,
+      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400",
+      "ingredients": [
+        { "name": "Pavés de saumon", "quantity": 4, "unit": "pièces" },
+        { "name": "Citron", "quantity": 2, "unit": "pièces" },
+        { "name": "Brocoli", "quantity": 400, "unit": "g" },
+        { "name": "Beurre", "quantity": 40, "unit": "g" },
+        { "name": "Aneth", "quantity": 1, "unit": "bouquet" },
+        { "name": "Sel", "quantity": 1, "unit": "c. à café" },
+        { "name": "Poivre", "quantity": 1, "unit": "c. à café" }
+      ],
+      "instructions": "Griller le saumon, préparer une sauce au citron et beurre, servir avec brocoli vapeur."
+    },
+    {
+      "id": 10,
+      "name": "Tacos au boeuf",
+      "category": "diner",
+      "prepTime": "20 min",
+      "cookTime": "15 min",
+      "calories": 550,
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400",
+      "ingredients": [
+        { "name": "Tortillas maïs", "quantity": 8, "unit": "pièces" },
+        { "name": "Viande hachée", "quantity": 400, "unit": "g" },
+        { "name": "Tomates", "quantity": 3, "unit": "pièces" },
+        { "name": "Oignon", "quantity": 1, "unit": "pièce" },
+        { "name": "Laitue", "quantity": 1, "unit": "pièce" },
+        { "name": "Fromage râpé", "quantity": 100, "unit": "g" },
+        { "name": "Crème fraîche", "quantity": 100, "unit": "ml" },
+        { "name": "Épices mexicaines", "quantity": 2, "unit": "c. à soupe" }
+      ],
+      "instructions": "Faire revenir la viande avec les épices, garnir les tortillas avec tous les ingrédients."
+    }
+  ]
+}
