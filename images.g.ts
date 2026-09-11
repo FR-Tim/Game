@@ -3,72 +3,43 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "image2":
-            case "Fusee entiere":return img`
-..............................
-..............................
-..............................
-..............................
-..............................
-..............................
-..............................
-..............................
-..............................
-..............................
-..............................
-..............................
-..............................
-..............................
-..............ff..............
-.............ffff.............
-............ffffff............
-...........ffeffeff...........
-..........ffeeffeeff..........
-.........ffffffffffff.........
-.........ffeeeffeeeff.........
-........ffeeeeffeeeeff........
-........ffeeeeffeeeeff........
-.....f..ffeeeeffeeeeff..f.....
-....fff.ffffffffffffff.fff....
-....fff.ffeeeeffeeeeff.fff....
-...ffcffffeeeeffeeeeffffbff...
-..ffcbcfffeeecccceeefffb11ff..
-.ffcb1bcffeefbbbbfeeffb1111ff.
-.ffcb1bcffecffffffceffb1111ff.
-.ffcb1bcffecbbffbbceffb1111ff.
-.ffcb1bcffffffffffffffb1111ff.
-.ffcb1bcfffcccc1111fffb1111ff.
-.ffcb1bcfffccc11111fffb1111ff.
-.ffcb1bcfffccc11111fffb1111ff.
-.ffcb1bcfffcccff111fffb1111ff.
-.ffcb1bcfffccffff11fffb1111ff.
-.ffcb1bcfffcffffff1fffb1111ff.
-.ffcb1bcfffcff11ff1fffb1111ff.
-.ffcb1bcfffcc111111fffb1111ff.
-.ffcbbbcffccff11ff11ffb1111ff.
-.ffcbbccffcbff11ff11ffb1111ff.
-.ffcbbcfcfcbb1111111f1f1111ff.
-.ffcbbcfcfcb11111111f1f1111ff.
-.ffcbccfcfcb11111111f1f1111ff.
-.ffcbccfcfcb11111111f1f1111ff.
-.ffcccfccfcb11111111f11f111ff.
-.ffcccfccfcb11111111f11f111ff.
-.ffccfcccfcb11111111f111f11ff.
-.ffccfcbcfcb11111111f111f11ff.
-.ffcfccbcfcb11111111f1111f1ff.
-.ffcfcbbcfcb11111111f1111f1ff.
-.fffcb1bcfcb11111111f18281fff.
-.ffccb1bcfcb11111111f1d1d11ff.
-ffccb11bffcb11111111ff888111ff
-ffffb11bffcb111cb111ff1111ffff
-.ffbffffbfcb111cb111f1ffff1ff.
-.ffcbbbfbfcb111cb111f1f1111ff.
-.ffcccbfbfcb111cb111f1f1111ff.
-.ffcccbfbfcb111cb111f1f1111ff.
-.ffccccbffffffffffffff11111ff.
-.ffffffffffffffffffffffffffff.
-ffcccccccff........ffcbb1111ff
-fbbbbbbbccff......ffcbb111111f
+            case "image5":
+            case "playTextImage":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image9":
+            case "Vide_menu":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
 `;
             case "image3":
             case "Fusse avec un reacteur":return img`
@@ -137,15 +108,15 @@ ffffb11bffcb111cb111ff1111ffff
 ffcccccccff...................
 fbbbbbbbccff..................
 `;
-            case "image4":
-            case "myTitleImage":return img`
+            case "image1":
+            case "myImage":return img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-. 2 . . . 2 . 2 2 2 2 . 2 . . 2 
-. 2 2 . 2 2 . 2 . . 2 . 2 2 . 2 
-. 2 . 2 . 2 . 2 . . 2 . 2 . 2 2 
-. 2 . . . 2 . 2 2 2 2 . 2 . . 2 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
@@ -194,44 +165,6 @@ fbbbbbbbccff..................
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `;
-            case "image5":
-            case "playTextImage":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`;
-            case "image1":
-            case "myImage":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`;
             case "image8":
             case "playTextImage0":return img`
 . . . . . . . . . . . . . . . . 
@@ -251,8 +184,15 @@ fbbbbbbbccff..................
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `;
-            case "image9":
-            case "Vide_menu":return img`
+            case "image4":
+            case "myTitleImage":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. 2 . . . 2 . 2 2 2 2 . 2 . . 2 
+. 2 2 . 2 2 . 2 . . 2 . 2 2 . 2 
+. 2 . 2 . 2 . 2 . . 2 . 2 . 2 2 
+. 2 . . . 2 . 2 2 2 2 . 2 . . 2 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
@@ -262,13 +202,73 @@ fbbbbbbbccff..................
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
+`;
+            case "image2":
+            case "Fusee entiere":return img`
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+..............ff..............
+.............ffff.............
+............ffffff............
+...........ffeffeff...........
+..........ffeeffeeff..........
+.........ffffffffffff.........
+.........ffeeeffeeeff.........
+........ffeeeeffeeeeff........
+........ffeeeeffeeeeff........
+.....f..ffeeeeffeeeeff..f.....
+....fff.ffffffffffffff.fff....
+....fff.ffeeeeffeeeeff.fff....
+...ffcffffeeeeffeeeeffffbff...
+..ffcbcfffeeecccceeefffb11ff..
+.ffcb1bcffeefbbbbfeeffb1111ff.
+.ffcb1bcffecffffffceffb1111ff.
+.ffcb1bcffecbbffbbceffb1111ff.
+.ffcb1bcffffffffffffffb1111ff.
+.ffcb1bcfffcccc1111fffb1111ff.
+.ffcb1bcfffccc11111fffb1111ff.
+.ffcb1bcfffccc11111fffb1111ff.
+.ffcb1bcfffcccff111fffb1111ff.
+.ffcb1bcfffccffff11fffb1111ff.
+.ffcb1bcfffcffffff1fffb1111ff.
+.ffcb1bcfffcff11ff1fffb1111ff.
+.ffcb1bcfffcc111111fffb1111ff.
+.ffcbbbcffccff11ff11ffb1111ff.
+.ffcbbccffcbff11ff11ffb1111ff.
+.ffcbbcfcfcbb1111111f1f1111ff.
+.ffcbbcfcfcb11111111f1f1111ff.
+.ffcbccfcfcb11111111f1f1111ff.
+.ffcbccfcfcb11111111f1f1111ff.
+.ffcccfccfcb11111111f11f111ff.
+.ffcccfccfcb11111111f11f111ff.
+.ffccfcccfcb11111111f111f11ff.
+.ffccfcbcfcb11111111f111f11ff.
+.ffcfccbcfcb11111111f1111f1ff.
+.ffcfcbbcfcb11111111f1111f1ff.
+.fffcb1bcfcb11111111f18281fff.
+.ffccb1bcfcb11111111f1d1d11ff.
+ffccb11bffcb11111111ff888111ff
+ffffb11bffcb111cb111ff1111ffff
+.ffbffffbfcb111cb111f1ffff1ff.
+.ffcbbbfbfcb111cb111f1f1111ff.
+.ffcccbfbfcb111cb111f1f1111ff.
+.ffcccbfbfcb111cb111f1f1111ff.
+.ffccccbffffffffffffff11111ff.
+.ffffffffffffffffffffffffffff.
+ffcccccccff........ffcbb1111ff
+fbbbbbbbccff......ffcbb111111f
 `;
         }
         return null;
@@ -282,6 +282,13 @@ fbbbbbbbccff..................
     })
 
     helpers._registerFactory("song", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+
+        }
+        return null;
+    })
+
+    helpers._registerFactory("json", function(name: string) {
         switch(helpers.stringTrim(name)) {
 
         }

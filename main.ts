@@ -2033,8 +2033,10 @@ forever(function () {
                 2 . . . . . . . . . . . 2 2 2 . 
                 . 2 2 2 2 2 2 2 2 2 2 2 2 2 . . 
                 `)
-        } else if (Selection > 3 || Selection < 0) {
-            Selection = 0
+        } else if (Selection > 3) {
+            Selection = 1
+        } else if (Selection < 1) {
+            Selection = 3
         } else if (Selection == 0) {
             Jouer.setImage(assets.image`playTextImage0`)
             Parametre.setImage(assets.image`settingsTextImage`)
